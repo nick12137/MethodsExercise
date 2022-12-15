@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, what is your name?"); //output
 
-            var name = Console.ReadLine(); // input
+            var userName = Console.ReadLine(); // input
 
             Console.WriteLine("What is your favorite color?"); //output
 
@@ -16,13 +16,19 @@
 
             var car = Console.ReadLine(); // input
 
-            Console.WriteLine("Do you like dogs or cats?"); //output
+            Console.WriteLine("What is your favorite animal?"); //output
 
-            var animals = Console.ReadLine(); // input
+            var animal = Console.ReadLine(); // input
 
             Console.WriteLine("What kind of music do you like?"); //output
 
             var music = Console.ReadLine(); // input
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorte color: {color}");
+            Console.WriteLine($"Favorite car: {car}");
+            Console.WriteLine($"Favorite animal: {animal}");
+            Console.WriteLine($"Favorite music: {music}");
         }
     }
 
