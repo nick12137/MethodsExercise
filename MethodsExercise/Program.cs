@@ -1,9 +1,10 @@
-﻿namespace MethodsExercise
-{
-    public class Program
+﻿
+    class Program
     {
         static void Main(string[] args)
+
         {
+            //------------------------Exercise 1----------------------------------
             Console.WriteLine("Hello, what is your name?"); //output
 
             var userName = Console.ReadLine(); // input
@@ -34,18 +35,13 @@
             Console.WriteLine($"Favorite car: {car}");
             Console.WriteLine($"Favorite animal: {animal}");
             Console.WriteLine($"Favorite music: {music}");
+
+            //------------------------Exercise 2----------------------------------
         }
     }
 
 
 
 
-}
-//Name: Michael
 
-//Favorite Color: Blue
-
-//Favorite Animal: Walrus
-
-//Favorite Band: The Beatles
 
