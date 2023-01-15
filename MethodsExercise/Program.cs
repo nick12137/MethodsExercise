@@ -1,46 +1,65 @@
 ﻿
     class Program
     {
+        public static int Sum(int num1, int num2)
+
+        {
+            var answer = num1 + num2;
+            return answer;
+
+        }
+        public static int Multiply(int num1, int num2, int num3)
+
+    {
+        return num1 * num2 * num3;
+
+
+    }
+
         static void Main(string[] args)
 
         {
-            //------------------------Exercise 1----------------------------------
-            Console.WriteLine("Hello, what is your name?"); //output
 
-            var userName = Console.ReadLine(); // input
+             var amountOfCars = Sum(2, 6);
+        var blah = Multiply(60, 2, 4);
+            
+                //------------------------Exercise 1----------------------------------
+                Console.WriteLine("Hello, what is your name?"); //output
 
-            Console.WriteLine($"Nice to meet you {userName}. What is your favorite color?"); //output
+                var userName = Console.ReadLine(); // input
 
-            var color = Console.ReadLine(); // input
+                Console.WriteLine($"Nice to meet you {userName}. What is your favorite color?"); //output
 
-            Console.WriteLine($"{color} is an awesome color. Do you have a favorite car, and what is it?"); //output
+                var color = Console.ReadLine(); // input
 
-            var car = Console.ReadLine(); // input
+                Console.WriteLine($"{color} is an awesome color. Do you have a favorite car, and what is it?"); //output
 
-            Console.WriteLine("Awesome, what about your favorite animal?"); //output
+                var car = Console.ReadLine(); // input
 
-            var animal = Console.ReadLine(); // input
+                Console.WriteLine("Awesome, what about your favorite animal?"); //output
 
-            Console.WriteLine("What kind of music do you like?"); //output
+                var animal = Console.ReadLine(); // input
 
-            var music = Console.ReadLine(); // input
+                Console.WriteLine("What kind of music do you like?"); //output
 
-            Console.WriteLine($"Thanks, {userName}! Here is your profile."); //output
-            Console.WriteLine("------------------------------------------");
-         
-          
+                var music = Console.ReadLine(); // input
 
-            Console.WriteLine($"Name: {userName}");
-            Console.WriteLine($"Favorte color: {color}");
-            Console.WriteLine($"Favorite car: {car}");
-            Console.WriteLine($"Favorite animal: {animal}");
-            Console.WriteLine($"Favorite music: {music}");
+                Console.WriteLine($"Thanks, {userName}! Here is your profile."); //output
+                Console.WriteLine("------------------------------------------");
 
-            //------------------------Exercise 2----------------------------------
+
+
+                Console.WriteLine($"Name: {userName}");
+                Console.WriteLine($"Favorte color: {color}");
+                Console.WriteLine($"Favorite car: {car}");
+                Console.WriteLine($"Favorite animal: {animal}");
+                Console.WriteLine($"Favorite music: {music}");
+
+                //------------------------Exercise 2----------------------------------
+            }
+
         }
-    }
-
-
+    
 
 
 
